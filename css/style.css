@@ -553,7 +553,7 @@ button:focus{
 
 .about-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-8.jpg);
 }
 
 .title-box{
@@ -561,13 +561,18 @@ button:focus{
 	margin-bottom: 30px;
 }
 .title-box h2{
-	font-size: 60px;
+	font-size: 40px;
 	font-family: 'Engagement', cursive;
 	color: #222222;
 }
 .title-box h2 span{
 	color: #881228;
-	text-decoration: underline;
+
+}
+.about-main-info p{
+	color: black;
+	margin-left: 20px;
+	font-size: 20px;
 }
 .about-main-info h2{
 	font-size: 40px;
@@ -575,7 +580,7 @@ button:focus{
 }
 .about-main-info h2 span{
 	color: #881228;
-	text-decoration: underline;
+	
 }
 .about-main-info{
 	margin-bottom: 30px;
@@ -727,7 +732,7 @@ button:focus{
 
 .family-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-10.jpg);
 }
 
 .single-team-member {
@@ -869,7 +874,9 @@ button:focus{
 
 .wedding-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-9.jpg);
+	
+
 }
 
 .serviceBox{
@@ -1048,16 +1055,38 @@ select.form-control:not([size]):not([multiple]){
 .help-block ul li{
 	color: red;
 }
+.map-box{
+	border: 5px solid gray;
+	border-radius: 10px;
+}
 
 .footer-box{
+	height: 500px;
 	background: #292f35;
 	padding: 20px 0;
+}
+.social h3{
+	color: white;
+	margin-top: 50px;
+	margin-left: px;
+}
+.social a{
+	color: white;
+	margin-top: 120px;
+	margin-left: px;
+	font-size: 40px;
+	}
+.copyright-section {
+	position: absolute;
+	margin-left: 330px;
 }
 
 .footer-box .footer-company-name{
 	text-align: center;
 	margin: 0px;
 	color: #ffffff;
+	margin-top: 30px;
+	
 }
 
 .footer-box .footer-company-name a{
@@ -1065,6 +1094,9 @@ select.form-control:not([size]):not([multiple]){
 }
 .footer-box .footer-company-name a:hover{
 	color: #63c7bd;
+}
+audio{
+	margin-left: 550px;
 }
 
 
